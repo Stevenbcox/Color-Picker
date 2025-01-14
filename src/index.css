@@ -12,6 +12,17 @@ body {
   justify-content: center;
 }
 
+h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  color: rgb(0, 136, 255);
+  background-color: #bdbdbd;
+  border-bottom: 5px solid #000000;
+}
+
 #container {
   height: 100%;
   display: flex;
@@ -34,7 +45,8 @@ body {
 
 #colors-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin: 10px;
 }
 
 #colors-list div {
@@ -45,8 +57,13 @@ body {
   transition: all 1s ease;
 }
 
+#colors-list div:hover{
+  border: 5px solid rgb(0, 0, 0);
+}
+
 .selected {
   border: 2px solid black;
+  
 }
 
 /* colors */
